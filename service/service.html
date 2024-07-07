@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши услуги</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p.description {
+            text-align: center;
+            color: #666;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service-item {
+            width: 30%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+        .service-item img {
+            width: 50px;
+            height: 50px;
+        }
+        .service-item h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+        .service-item p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="javascript:history.back()" class="back-button">Назад</a>
+        <h1>Наши услуги</h1>
+        <p class="description">Мы предлагаем широкий спектр услуг для удовлетворения ваших потребностей.</p>
+        <div class="services">
+            <div class="service-item">
+                <img src="png-clipart-vk-social-networking-service-yandex-search-like-button-russia-player-smiley-online-chat.png" alt="Услуга 1">
+                <h2>Услуга 1</h2>
+                <p>Описание услуги 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur veniam accusamus voluptatum delectus, exercitationem deleniti sed sunt deserunt assumenda ratione, id inventore explicabo, sequi ad quidem totam expedita error cupiditate.</p>
+            </div>
+            <div class="service-item">
+                <img src="service2.png" alt="Услуга 2">
+                <h2>Услуга 2</h2>
+                <p>Описание услуги 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae numquam recusandae commodi tempore mollitia odio repellendus ipsum labore molestiae ullam distinctio nihil consequuntur impedit inventore, possimus doloribus incidunt totam quam.</p>
+            </div>
+            <div class="service-item">
+                <img src="service3.png" alt="Услуга 3">
+                <h2>Услуга 3</h2>
+                <p>Описание услуги 3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus atque blanditiis dolore, quos tenetur ex facilis excepturi, amet ipsam eaque facere impedit iste ratione consequuntur non sapiente, dolorum quia!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
