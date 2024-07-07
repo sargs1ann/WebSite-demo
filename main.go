@@ -29,7 +29,7 @@ func main() {
 	}
 	defer db.Close()
 
-	insert, err := db.Query("INSERT INTO `users` (`name`, `age`, `email`) VALUES('John', 12, 'sdhsahd@mail.ru')")
+	insert, err := db.Query("INSERT INTO `users` (`name`, `age`, `email`) VALUES(?,?,?)")
 	if err != nil {
 		panic(err.Error())
 	}
